@@ -68,5 +68,5 @@ backend letsencrypt
  
 backend lb-backend
         balance roundrobin
-        server web-01 54.234.216.53:80 check
-        server web-02 34.228.165.232:80 check
+        server web-01 174.129.58.151:80 check
+        server web-02 54.204.112.108:80 check
